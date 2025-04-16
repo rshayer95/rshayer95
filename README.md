@@ -2,7 +2,7 @@
 
 🛠️ Developer · 🔐 Security Engineer · ⚙️ DevOps Explorer · 🧠 Systems Thinker
 
-> I build tools that make people more efficient, secure, and future-ready.
+> I build tools that make people and systems more efficient, secure, and future-ready.
 
 ---
 
