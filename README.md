@@ -1,85 +1,42 @@
-# 👋 Hey, I’m Robin Hayer
+# Robin Hayer
 
-🛠️ Developer · 🔐 Security Engineer · ⚙️ DevOps Explorer · 🧠 Systems Thinker
+**Security automation & platform engineer — Go, Python, Azure.**
 
-> I build tools that make systems more efficient, secure, and future-ready.
-
----
-
-## 🚀 About Me
-
-I’m Robin, a developer with a mission: **build tools that solve real problems**.
-
-Whether it's parsing packet captures, analyzing CSVs, automating cloud pipelines, or simplifying workflows for security analysts—my work revolves around one core idea:  
-**If something feels repetitive, inconsistent, or too manual, I build a better system for it.**
-
-My journey spans across programming, automation, cloud integration, and security engineering. I’ve built internal tools for OT environments, crafted GUIs and CLIs for analyst teams, and wired up data pipelines using cloud-native solutions. It’s not about shiny frameworks—**it’s about shipping tools that actually help.**
+I build the systems security operations run on: network telemetry pipelines, packet analysis engines, and the automation that turns raw data into something a detection team can actually query.
 
 ---
 
-## 🧩 What I’ve Built
+### What I work on
 
-### 🧰 Purpose-Built Tools (Across Work & Projects)
-
-- **CSV & PCAP Automation Toolchain:**  
-  Built to simplify incident workflows—my system connects Microsoft Sentinel CSV data with packet captures, maps relationships, and outputs clear, JSON-formatted evidence. It has both CLI and GUI interfaces for different user needs.
-
-- **Custom Packet Decoder (ENIP/CIP, Go):**  
-  Decodes OT protocol packets from raw PCAP data, identifies commands, and transforms bytes into human-readable analysis. Designed for speed and concurrency—built entirely in memory using Go.
-
-- **Cloud-Driven Automation with Azure:**  
-  Used Logic Apps to orchestrate data flows and Function Apps (Go + Python) to analyze packets and CSVs. This forms a serverless pipeline that runs production-grade processing in response to alerts.
-
-- **API Fetcher and Formatter (Go):**  
-  A concurrent API handler that pulls from multiple sources, processes logic rules, and standardizes the output—used for internal evidence building and enrichment.
-
-- **Tauri-Based Desktop Tool:**  
-  A lightweight desktop app built with Tauri that allows analysts to process and validate CSV data with a clean UI and built-in logic.
+- **Network telemetry & packet analysis** — high-throughput PCAP processing, protocol dissection, concurrent parsing pipelines.
+- **Security automation** — alert triage, enrichment, and workflow tooling for OT and SOC teams.
+- **Event-driven cloud architecture** — serverless pipelines on Azure Functions, Service Bus, and Log Analytics.
+- **Performance work** — benchmarking, profiling, and root-causing the bugs that turn out to live in someone else's library.
 
 ---
 
-## 🧠 Philosophy & Approach
+### Published
 
-I don't just write code—I build **systems**:
+**[go-clipboard](https://github.com/rshayer95/go-clipboard)** — cross-platform clipboard library for Go. Build-tag support for Windows, macOS, and Linux including WSL. Indexed on [pkg.go.dev](https://pkg.go.dev).
 
-- Systems that make investigations repeatable.
-- Systems that turn noisy data into insight.
-- Systems that scale quietly in the background.
-- Systems that help analysts, not replace them.
-
-Whether it's for OT environments, cloud-native DevOps, or general purpose automation, my goal is the same: **remove friction, add clarity.**
+More coming — writing up the engineering work I can share publicly.
 
 ---
 
-## 🧪 Technologies & Stack
+### Stack
 
-- **Languages:** Go, Python, TypeScript, JavaScript, Bash  
-- **Cloud:** Azure (Logic Apps, Function Apps, Blob, etc.)  
-- **Automation:** CLI tooling, GitHub Actions, serverless workflows  
-- **UI:** Tauri, React, Node.js, REST APIs  
-- **Security & Networking:** PCAP parsing, protocol analysis, Wireshark-style logic  
-- **Tools:** Neovim, Postman, Git, VSCode, Docker
-
----
-
-## 🎯 Vision for 2025+
-
-- ⚙️ Master DevOps + IaC to automate infrastructure the same way I do workflows  
-- 🧪 Continue building problem-first tools—especially for analysts, devs, and cloud teams  
-- 🔐 Contribute to open-source tools in security, cloud, and automation  
-- 🧠 Apply ML models in meaningful ways, especially for packet/data analysis  
-- 🚀 Eventually launch a polished product or internal platform as a solo founder
+**Languages:** Go · Python · Rust · TypeScript · Bash · KQL
+**Cloud:** Azure (Functions, Service Bus, Log Analytics, Sentinel, Logic Apps)
+**Infrastructure:** Kubernetes · Docker · Linux/WSL · CI/CD
+**Network:** tshark/Wireshark · gopacket · dpkt · protocol parsing
+**Other:** REST APIs · event-driven systems · Tauri · React · Neovim
 
 ---
 
-## 📬 Let’s Connect
+### Approach
 
-If you're passionate about tool-building, automation, security, or shipping systems that solve real problems—we’ll get along.
-
-📧 Email: [dev.robinhayer@gmail.com](mailto:dev.robinhayer@gmail.com)  
-🌐 Portfolio: *(Coming soon)*  
-📍 Based in Canada (Toronto/GTA)
+If something is repetitive, inconsistent, or manual, I build a better system for it. I dig past the first plausible explanation for a bug until I find the real cause, and I separate what's verified from what's estimated — in code and in writing.
 
 ---
 
-> “It’s not about doing everything. It’s about doing the right things repeatedly—and building the tools that help you do that.”
+📧 dev.robinhayer@gmail.com · 💼 [LinkedIn](https://linkedin.com/in/rshayer95) · 📍 Toronto / GTA, Canada
